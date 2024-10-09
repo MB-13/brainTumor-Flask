@@ -20,9 +20,9 @@
     </div>
     <div class="result">
         {% if result == "no tumor" %}
-            <p class="no-tumor">{{ patientname|title}} has NO BRAIN TUMOR.</p>
+            <p class="no-tumor">{{ patient_name|title}} has NO BRAIN TUMOR.</p>
         {% else %}
-            <p class="tumor">{{ patientname|title }} is suffering from {{ result|title }}.</p>
+            <p class="tumor">{{ patient_name|title }} is suffering from {{ result|title }}.</p>
         {% endif %}
     </div>
 </body>
