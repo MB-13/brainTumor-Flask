@@ -34,8 +34,9 @@ This project is a web application that classifies types of tumors based on MRI i
 3. Click on the submit button to view the classification results.
 
 ## Screenshots
-![Home Page](path/to/your/home.png)
-![Results Page](path/to/your/results.png)
+![Home Page](https://github.com/MB-13/brainTumor-Flask/blob/main/images/Screenshot%20(261).png)
+![Results Page](https://github.com/MB-13/brainTumor-Flask/blob/main/images/Screenshot%20(263).png)
+![Results Page](https://github.com/MB-13/brainTumor-Flask/blob/main/images/Screenshot%20(264).png)
 
 ## Technologies Used
 - HTML
