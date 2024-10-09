@@ -1,0 +1,1 @@
+YOU CAN GET THE MODEL FROM THIS REPO "https://github.com/MB-13/model-deployment-using-streamlit.git" and place it in this folder.

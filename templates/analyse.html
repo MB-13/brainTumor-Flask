@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='style/analyse_style.css')}}">
+    <link rel="icon" href="/static/images/brainstorm.png">
+    <title>Analyse</title>
+</head>
+<body>
+    <header>
+    <nav>
+        <a href="{{url_for('home')}}">GO TO HOME PAGE</a>
+    </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="heading1">Patient Name :- {{ patient_name|title }}</h1>
+        <img src="{{ path }}" height="500px" width="500px" class="mri">
+    </div>
+    <div class="result">
+        {% if result == "no tumor" %}
+            <p class="no-tumor">{{ patientname|title}} has NO BRAIN TUMOR.</p>
+        {% else %}
+            <p class="tumor">{{ patientname|title }} is suffering from {{ result|title }}.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color:rgba(143, 231, 231, 0.837); */
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+}
+header nav a{
+    text-decoration: none;
+    color: white;
+    border: solid 0.1rem white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading1{
+    margin-bottom: 1.5rem;
+    
+}
+.mri{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    border: none;
+}
+
+header nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+.result{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.no-tumor{
+    color: lightgreen
+}
+.tumor{
+    color: red;
+}
+

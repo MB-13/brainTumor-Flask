@@ -1,0 +1,143 @@
+body{
+    /* background-image: url('/static/img/bt_bg3.jpg'); */
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    /* color: #000024; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer{
+    padding: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    /* background-color: rgba(93, 249, 248,0.5); */
+    background-color: #212121;
+    font-weight: 500;
+    font-size: 1.5rem;
+    position: relative;
+    /* top: 11.5rem; */
+    /* left: -22rem; */
+    border: 5px solid rgba(93, 249, 248);
+    /* border:none; */
+    border-radius: 10px;
+    /* border: 1px solid blue;
+    box-shadow: 1px blue; */
+    top: 5rem;
+}
+.div-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 3rem;
+}
+.form-submit{
+    background-color: rgba(0, 0, 36,0.5);
+    color: white;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    /* margin-top: 2rem; */
+    border: 2px solid white;
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.pn input{
+    position: relative;
+    /* background-color: rgba(161, 236, 248,0.5); */
+    background-color: white;
+    /* background-color: transparent; */
+    padding-left: 5px;
+    bottom: 2px;
+    width: 60%;
+    height: 1.5rem;
+    border: 2px solid black;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    left: 1rem;
+    font-weight: 700;
+}
+
+.fu input{
+    position: relative;
+    background-color: transparent;
+    bottom: 4px;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.su{
+    padding: 0;
+    width: 40%;
+    height: 50%;
+    border: none;
+    margin-top: 2rem;
+    /* background-color: rgba(0, 0, 36,0.5); */
+    background-color: #000000;
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem;
+    border-bottom-right-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+}
+body div h1{
+    font-size: 5rem;
+}
+.form-submit:hover{
+    background-color: white;
+    color: black;
+}
+
+.msg{
+    color: red;
+}
+
+input[type="file"] {
+    /* Hide the default input styling */
+    display: inline-block;
+    width: auto;
+    /* color: #333; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+  }
+
+  input[type="file"]::file-selector-button {
+    background-color: #4CAF50;  /* Green background */
+    color: white;               /* White text */
+    border: none;               /* Remove border */
+    padding: 10px 20px;         /* Padding inside the button */
+    margin-right: 10px;         /* Space between the button and the file name */
+    border-radius: 5px;         /* Rounded corners */
+    font-family: 'Montserrat', sans-serif;  /* Font family */
+    font-size: 16px;            /* Font size */
+    cursor: pointer;            /* Pointer cursor */
+    transition: background-color 0.3s ease; /* Smooth background transition */
+  }
+
+  input[type="file"]::file-selector-button:hover {
+    background-color: #45a049;  /* Darker green on hover */
+  }
+
+  input[type="file"]::file-selector-button:focus {
+    outline: none;              /* Remove outline */
+    box-shadow: 0 0 0 2px #45a049; /* Add a green outline on focus */
+  }
+  
+
+  input[type="file"] {
+    /* color: #333; */
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }

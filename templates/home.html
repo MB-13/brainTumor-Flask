@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain-Tumor-Analysis</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style/home_style.css')}}">
+    <link rel="icon" href="/static/images/brainstorm.png">
+</head>
+<body>
+    
+    <div class="outer">
+
+        <h1>Brain Tumor Classifier</h1>
+        <div class="div-form">
+            <form action="/analyse" method="post" enctype="multipart/form-data">
+                {{ form.hidden_tag() }}
+
+                <div class="pn">
+                    {{ form.patientname.label }}
+                    {{ form.patientname }}
+                    {% if form.patientname.errors %}
+                        {% for error in form.patientname.errors %}
+                            <div>{{ error }}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+
+                <div class="fu">
+                    {{ form.image.label }}
+                    {{ form.image }}
+                    {% if form.image.errors %}
+                        {% for error in form.image.errors %}
+                            <div>{{ error }}</div>
+                        {% endfor %}
+                    {% endif %}
+                </div>
+                <div class="msg">
+                    {{ message }}
+                </div>
+
+                <div class="su">
+                    <input type="submit" class="form-submit" value="Analyse">
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
