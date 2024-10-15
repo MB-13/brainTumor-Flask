@@ -27,6 +27,8 @@ This project is a web application that classifies types of tumors based on MRI i
    ```bash
    python app.py
    ```
+5. Use this url to download model:
+   <a>https://drive.google.com/file/d/1RYTFaDTWNI_HxF6560xvUOOzypyGLlVQ/view?usp=sharing</a>
 
 ## Usage
 1. Navigate to the home page of the website.
